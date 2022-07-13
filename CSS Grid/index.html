@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
+    <style>
+        .container{
+            display: grid;
+            /* grid-template-columns: 1fr 2fr 1fr 200px 50px 30px repeat(3, 1fr) repeat(3,2fr)  ; */
+            /* short hand for grid rows and columns
+             */
+             grid-template: repeat(2,1fr)/repeat(2,1fr);
+            /* grid-template-rows:  1fr 1fr 1fr; */
+            grid-gap: 5px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="header">HEADER</div>
+        <div class="menu">MENU</div>
+        <div class="content">CONTENT</div>
+        <div class="footer">FOOTER</div>
+    
+    </div>
+  </body>
+</html>
+
